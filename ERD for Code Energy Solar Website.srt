@@ -1,0 +1,95 @@
+1
+00:00:04,100 --> 00:00:08,960
+So I'm going to show you the ERD that I created for
+
+2
+00:00:08,960 --> 00:00:12,020
+the website for Code Energy Solar.
+
+3
+00:00:12,840 --> 00:00:16,500
+So we have the entities right here.
+
+4
+00:00:18,949 --> 00:00:24,129
+The main subject of this website is to provide the users orders,
+
+5
+00:00:24,549 --> 00:00:28,509
+to provide the equipment, like solar panels and solar inverters.
+
+6
+00:00:29,449 --> 00:00:32,605
+So, we're starting right here. We have the
+
+7
+00:00:37,165 --> 00:00:42,485
+user entity that is holding
+
+8
+00:00:42,485 --> 00:00:47,749
+the id, user id, user name, mail,
+
+9
+00:00:47,749 --> 00:00:43,645
+password and after we have the entity order
+
+10
+00:00:51,990 --> 00:00:47,885
+that is holding every
+
+11
+00:00:51,990 --> 00:00:57,430
+one right here and we also
+
+12
+00:00:57,430 --> 00:00:56,591
+have the budget entity, items, structure, solar panel and solar inverter.
+
+13
+00:01:04,750 --> 00:01:06,368
+So the connection, the relationship between these entities is the following. So, for one
+
+14
+00:01:06,368 --> 00:01:09,588
+user we can have many orders or many budgets.
+
+15
+00:01:10,828 --> 00:01:15,148
+We can have just one order for each one budget.
+
+16
+00:01:16,448 --> 00:01:18,848
+We can have many items.
+
+17
+00:01:20,946 --> 00:01:23,646
+For one budget.
+
+18
+00:01:24,846 --> 00:01:29,346
+And we can also add like one solar inverter,
+
+19
+00:01:29,746 --> 00:01:34,146
+one solar panel and one kind of structure for the list of items.
+
+20
+00:01:36,814 --> 00:01:39,854
+After we added all the items we need,
+
+21
+00:01:40,494 --> 00:01:45,114
+we can create the budget and we can create many budgets
+
+22
+00:01:45,814 --> 00:01:48,594
+for one user. And then,
+
+23
+00:01:48,874 --> 00:01:51,754
+after we get what we want,
+
+24
+00:01:52,134 --> 00:01:52,574
+we can go
